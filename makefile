@@ -4,6 +4,7 @@ OPT = -O3
 INCLUDE = .
 
 
+
 polygon : main.o
 	$(CC) $(OPT) $(DEBUG) main.o -o $@
 
